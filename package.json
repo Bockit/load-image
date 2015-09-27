@@ -1,0 +1,36 @@
+{
+  "name": "@bockit/load-image",
+  "version": "1.0.0",
+  "description": "Helper functions to load images from urls",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bockit/load-image.git"
+  },
+  "keywords": [
+    "browser",
+    "image",
+    "dom"
+  ],
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "author": "James Hiscock <james@jameshiscock.com> (http://jameshiscock.com/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bockit/load-image/issues"
+  },
+  "homepage": "https://github.com/bockit/load-image#readme",
+  "dependencies": {
+    "babelify": "^6.3.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tape": "^4.2.0"
+  }
+}
